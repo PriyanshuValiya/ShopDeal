@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    font-family: Arial;
+ }
+
+ .section{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 10px;
+   width: 80%;
+ }
+
+ .h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    background-color: aquamarine;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 620px;
+ }
+ .h1:hover{
+    border: 2.5px solid orange;
+ }
+
+ .h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: rgb(238, 193, 109);
+    height: 40px;
+    width: 300px;
+    border-radius: 4px;
+ }
+ .h3:hover{
+    border: 2.5px solid black;
+ }
+
+ .information{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 700px;
+ }
+
+ .first-name{
+    margin-top: 10px;
+ }
+
+ .last-name{
+    margin-top: 10px;
+ }
+
+ .gender{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 300px;
+ }
+
+ .address{
+   margin-top: 20px;
+   margin-left: 25px;
+ }
+
+ .select-list{
+   margin-top: 20px;
+   margin-left: 20px;
+ }
+
+ .bank-name{
+   margin-left: 25px;
+   margin-top: 20px;
+ }
+
+ .select-leest{
+   margin-top: 20px;
+ }
+
+.amount{
+  margin-top: 20px;
+ }
+
+ .button{
+   display: flex;
+   justify-content: space-evenly;
+   width: 30%;
+   margin-top: 30px;
+   margin-left: 50px;
+ }
+
+ .home{
+   margin-left: 20px;
+   text-decoration: none;
+ }
+
+ .contectus{
+   width: 100%;
+   margin-top: 30px;
+   margin-left: 50px;
+   display: flex; 
+   justify-content: space-evenly;
+ }
+
+ .linkedin{
+   text-decoration: none;
+ }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAmVBMVEX6ohz////6nQD34rv5mwD88t70skv6oBT60Jr79eT20pz4rj3616P4nwD9///57tf5ohH2tlr7mgD9//v416n0ngD8oBryrTr1pB70u2b5+u78/vbzw4D2py355cr7nRLyvmz2tlz25MH2u2v4tFXyyoj39uH8+er2yY33r0X45sn60p7zqi/31an4xXz2qjr87+XzpQ723rJ/1DChAAAEL0lEQVR4nO3c21baQBQG4GQ4jEGzEwhBSEyrEQqmrbS+/8OVaFtlMi1DDsyG9X9XXsha8zuZ7DmJ4wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACchlTZblDLRHh7rZh/tt2oNslF4u4jSu8uqRtlSq6Kosx2s9ozu3WjSkKX7nzbDWtPnFYDuu6nC0r4+T4ph94f5c+7hOklDUT/2/hh/G55VSakxUR06qQRlWI4L8dlNOh1KR/ZHAWiKBNG1KlPp+1EJeGGqvWjZVT0Q3sJZXaChDc2+9Dpe10HdOnR6rtaTN3DA6lZNyc28zlOuBwEB3mNIhZ9uxGlf5izIs1sz9TqHKZMk1H9hJSdw5RJDusn/NKf2W6+AbmsPRJparVWGJLxTf2EDxwe0vCA+ar+yzSZ207nyGvPG/yXt25QEXMGD2m8rt38g4g2DBKKaXdT0yh9YjAM5UNnAV0asCj3obrF2GJCHrVC5N0lXDB4SMt6PjpWYbjgSC2ufT+SR+8t9VeRUcKCxUNai1+YJKTV+SYUX40SfjuHWbfepGeQkEmteFU5VTxgstSc8VR9Z5NQZuqp4gErsxLKo1aU5OK4uTW5Rr+ezPkMw7iLaQ3llvegPpoUXSTkdDApnjtYX0Qc1hV/zLYdJPzCqAt3nRg0jKP5C9k9r6jYDhtZapbRD0ym3W9mx9Z8RdgfKRGjyOdTK9ogM6XgUC4uK6ETKud0LPag2iS36sb/llGteCP9Btct+rG6YGS0rvhN3o+uahtNPXVma/UGhpa/abXos9go3SezNhMy2Ubc13ha8zFgENuOoyG+tpcwYLQyfBeOzda1hyUbrper8/+fspkJes9zhmPwza6sNbUrjROfaQcCABuy6dtGsH7PzOLw8SXw6lt7wfQxZjfn/ks6m6TRXcvyw0TrO671Qm6DdiY1VPC8rSe3SVurC/rxk2NE0eLNoShgOHHTXRwqbsxU1110xS6ifNLcPQj6wuAKsa+7Dp+wG4pipHnYaGzSTLnQjV92lxTEQJfQ6OhBaM/0uV00qWxZmzdzJga6hGtmT+luGOoSDgyaKWNtlUntX53d84+76gOD46NQf/Mv4pZwq/330sBkihmvtX3YeZuPpB6svKIXozeN9hKA0R/nlERPl/DZpJniStOH/LaE5UL7pBnVw7kmYTpkt2OquW1II7N+8KsTPupx68KyXijNJNczHEoyU9415KbsJm07k+f9xW9kfh9GjpU3MS24vWdeifv0fV8/cr0n81aK5YeaSJTyDLjrxeH7WExfsmNa6Wf53ykD5bdMA5YTsEW+G1IUDabDyXEDSYrl9/IcmLyXMddtmtJMCj/bXs99cfRtnzAsP3qbScH+C2+afO/Q5X1nEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJybX3kmX1pzmU9ZAAAAAElFTkSuQmCC">
+    
+    <title>Shop Deal </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="PaymentStyle.css">
+</head>
+<body>
+    <h1 class="h1">Payment Section</h1>
+
+    <div class="section">
+        <div class="seactionA">
+    <h3 class="h3"><i class="fa-solid fa-circle-user"></i><pre>   Your Information.</pre></h3>
+
+    <div class="information">
+      <p class="first-name">*First Name : <input type="text" name="name" id="name"></p>
+        <p class="last-name">*Last Name : <input type="text" name="name" id="name"></p>
+    </div>
+
+    <div class="gender">
+        <fieldset>
+        <legend>Gender</legend>
+        <p> <input type="radio" name="gender" id=""> Male
+             <input type="radio" name="gender" id=""> Female
+             <input type="radio" name="gender" id=""> Other</p>
+        </fieldset>
+    </div>
+
+    <p class="address">*Address : <textarea name="address" id="address" cols="50" rows="2" placeholder="Type Here..."></textarea></p>
+
+    <h3 class="h3"><i class="fa-solid fa-cart-shopping"></i><pre>   About Product.</pre></h3>
+    <div class="select-list">
+        <p>*Your Product : <select name="product-name">
+            <option value="">--Select Here--</option>
+            <option value="crockery">Crockery</option>
+            <option value="bedsheet">Bed Sheet</option>
+            <option value="amul">Amul Product</option>
+            <option value="toys">Toys</option>
+            <option value="towel">Towels</option>
+            </select>
+        </p>
+    </div>
+    </div>
+
+    <div class="sectionB">
+    <h3 class="h3"><i class="fa-brands fa-cc-amazon-pay"></i><pre>   Payment Information.</pre></h3>
+    
+    <div class="bank-name">*Your Bank : <input type="text" name="name">
+
+    <div class="select-leest">
+        <p>*Your Card : <select name="card-name">
+            <option value="">--Select Here--</option>
+            <option value="paypal">PayPal</option>
+            <option value="bharatpay">BharatPay</option>
+            <option value="paytm">PayTm</option>
+            <option value="visa">Visa</option>
+            <option value="upi">UPI</option>
+            </select></p></div>
+
+            <p class="amount">Card Number : <input type="number" name="amount"></p>
+            <p class="amount">Product's Amount : <input type="number" name="amount"></p>
+            <p class="amount">Date Of Birth : <input type="date" name="date_of_birth"></p>
+            <p class="amount">Password : <input type="password" name="password" style="margin-left: 5px;"></p>
+
+            <div class="button">
+            <div  class="submit"><input type="submit" value="Pay Now" style="margin-left: 55px;"></div>
+            <div class="reset"><input type="reset" value="Clear" style="margin-left: 5px;"></div>
+            <div class="home"><a href="ShopDeal.html">Home</a></div>
+            </div>
+         </div>
+         
+    </div>
+ </div>
+
+ <h4 class="h1">Contect Us</h4>
+ <div class="contectus">
+    <div class="linkedin">
+        <i class="fa-brands fa-linkedin"></i>
+    <a href="https://www.linkedin.com/in/priyanshu-valiya-565967274/">Linkedin</a></div>
+
+    <div class="instagram">
+        <i class="fa-brands fa-instagram"></i>
+    <a href="https://www.instagram.com/priyanshu_valiya/">Instagram</a></div>
+
+    <div class="facebook">
+        <i class="fa-brands fa-facebook"></i>
+    <a href="https://www.facebook.com/profile.php?id=100093844835271">Facebook</a></div>
+    
+    <div class="telegram">
+        <i class="fa-brands fa-telegram"></i>
+    <a href="https://web.telegram.org/k/">Telegram</a></div>
+    
+    <div class="whatsapp">
+        <i class="fa-brands fa-github"></i>
+   <a href="https://github.com/dashboard">GitHub</a></div>
+
+   <div class="mobile">
+    <i class="fa-solid fa-mobile-screen-button"></i>
+<a href="tel:+91 6351597276">Mobile Number</a></div>
+ </div>
+</body>
+</html>
